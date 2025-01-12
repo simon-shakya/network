@@ -43,17 +43,18 @@ For deeper network flow analysis, you can monitor connections and traffic flow o
 flow.py
 
 
-# Start sniffing
+### Start sniffing
 print("Capturing packets...")
 sniff(iface="eth0", prn=packet_handler, store=0, count=100)
 
-# Display the connections and their packet counts
+### Display the connections and their packet counts
 for connection, count in connections.items():
     print(f"Connection {connection}: {count} packets")
 
 ### 7. Running Wireshark for Live Monitoring
 If you prefer live monitoring similar to Wireshark's GUI, you can use pyshark to monitor the packets in real-time, or run Wireshark alongside your Python analyzer for more detailed inspection.
-Conclusion
+
+### Conclusion
 This setup allows you to:
 1. Capture and analyze network packets using Python.
 2. Use scapy for deep packet inspection and analysis.
