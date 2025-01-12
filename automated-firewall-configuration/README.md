@@ -17,4 +17,17 @@ This repository contains a **Bash script** to automate the configuration of fire
    ```bash
    git clone https://github.com/simon-shakya/network.git
    cd network/automated-firewall-configuration
+   ```
 
+
+   ## 2. Make the script executable:
+
+   ```bash
+   chmod +x firewall_setup.sh
+   ```
+### 3. Run the script with sudo:
+
+```bash
+sudo ./firewall_setup.sh
+```
+This will apply the firewall rules and save the configuration.
