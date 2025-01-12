@@ -15,6 +15,6 @@ This repository contains a **Bash script** to automate the configuration of fire
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/simon-shakya/network/automated-firewall-configuration.git
-   cd automated-firewall-configuration
+   git clone https://github.com/simon-shakya/network.git
+   cd network/automated-firewall-configuration
 
