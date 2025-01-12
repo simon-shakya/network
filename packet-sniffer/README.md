@@ -27,20 +27,20 @@ Scapy is a powerful Python library for packet manipulation and capture. Here’s
 ### 3. Integrating with Wireshark Using Pyshark
 
 To integrate with Wireshark, we can use the pyshark library, which acts as a wrapper around Wireshark’s tshark (the command-line version of Wireshark).
-pyshark.py 
+[pyshark.py](https://github.com/simon-shakya/network/blob/main/packet-sniffer/pyshark.py)
 
 ### 4. Analyzing Network Traffic
 You can analyze packet data, such as IP addresses, protocols, and ports. Here’s an example that creates a simple histogram of the number of packets per protocol using matplotlib:
-Matplotlib.py 
+[matplotlib.py.py](https://github.com/simon-shakya/network/blob/main/packet-sniffer/matplotlib.py)
 
 ### 5. Advanced Traffic Analysis and Visualizations
 You can use more advanced analysis, such as plotting the distribution of packet sizes, flow durations, or the count of unique source/destination IPs over time.
 
-matplotlib-advance.py 
+[matplotlib-advance.py](https://github.com/simon-shakya/network/blob/main/packet-sniffer/matplotlib-advance.py)
 
 ### 6. Enhancing the Analysis with Flow Monitoring
 For deeper network flow analysis, you can monitor connections and traffic flow over time. Here’s a simple example for monitoring TCP connections:
-flow.py
+[flow.py](https://github.com/simon-shakya/network/blob/main/packet-sniffer/flow.py)
 
 
 ### Start sniffing
