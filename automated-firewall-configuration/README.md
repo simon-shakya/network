@@ -30,4 +30,34 @@ This repository contains a **Bash script** to automate the configuration of fire
 ```bash
 sudo ./firewall_setup.sh
 ```
-This will apply the firewall rules and save the configuration.
+  This will apply the firewall rules and save the configuration.
+
+
+## How It Works 
+
+**Firewall Rules Setup:**
+
+Configures default policies for incoming and outgoing traffic.
+Allows incoming SSH, HTTP, and HTTPS traffic.
+Sets up NAT (Masquerading) for outgoing traffic.
+Configures basic forwarding rules between the internal and external network interfaces.
+
+**Security Zones:**
+
+The script sets up basic zones by controlling which ports are open (SSH, HTTP, HTTPS).
+
+**Persistence:**
+
+The script saves the iptables configuration to ensure rules persist after reboot (specific to Debian-based systems).
+Version Control and Collaboration
+This repository uses GitHub for version control and collaboration.
+Team members can fork the repository, make improvements or fixes, and create pull requests for review.
+Each environment (test, staging, production) can have different versions or configurations managed through Git branches.
+
+## Contributing
+If you'd like to contribute to this project:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Write your code and add tests if necessary.
+Submit a pull request with a description of your changes.
