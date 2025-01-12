@@ -21,7 +21,7 @@ pip install scapy matplotlib pyshark
 
 ### 2. Capture Network Traffic with Scapy
 Scapy is a powerful Python library for packet manipulation and capture. Here’s a basic script to capture packets from a network interface:
-Capture.py
+[capture.py]([http://example.com](https://github.com/simon-shakya/network/blob/main/packet-sniffer/capture.py)
 
 
 ### 3. Integrating with Wireshark Using Pyshark
