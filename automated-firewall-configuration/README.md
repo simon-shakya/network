@@ -20,12 +20,12 @@ This repository contains a **Bash script** to automate the configuration of fire
    ```
 
 
-   ## 2. Make the script executable:
+2. **Make the script executable:**
 
    ```bash
    chmod +x firewall_setup.sh
    ```
-### 3. Run the script with sudo:
+3. **Run the script with sudo:**
 
 ```bash
 sudo ./firewall_setup.sh
